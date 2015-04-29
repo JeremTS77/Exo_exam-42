@@ -1,0 +1,4 @@
+gcc main.c
+./a.out
+//Ouvrir un deuxieme shell
+	->./death_race
