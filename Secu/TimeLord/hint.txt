@@ -1,0 +1,8 @@
+cp timelord timelord_crack
+
+vim timelord_crack
+	->:%!xxd
+	->change les valeurs
+	->:%!xxd -r
+	->:wq
+./timelord_crack
