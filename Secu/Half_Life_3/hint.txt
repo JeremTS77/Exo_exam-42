@@ -1,0 +1,14 @@
+open /Applications/Calculator.app
+	->View -> programmer
+
+_is_key_valid_length:
+	-> on cherche le "cmpl"
+		-> on obtient le nombre A  de caractere que dois faire le secret
+
+_check_key_integrity:
+	-> on cherche le "cmpl"
+		-> on obtient le poids P total de chaine.
+
+on divise P par A pour obtenir le caracter C a repeter A fois pour obtenir le "Valid Key Detected...\n"
+
+echo -n "" > secret
