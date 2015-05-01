@@ -12,10 +12,7 @@
 
 #include <unistd.h>
 
-void			ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
+void			ft_putchar(char c);
 
 static int		print_door(int level, int *stage, int base, int tmp)
 {
