@@ -17,14 +17,15 @@ int		ft_strlen(char *str)
 	int n;
 
 	n = 0;
-	while (str[n] != '\0')
-		n++;
+	if (str)
+		while (str[n] != '\0')
+			++n;
 	return (n);
 }
 
 char	*ft_strdup(char *src)
 {
-	char	*dest;
+	char		*dest;
 	int		index;
 
 	index = 0;
@@ -33,7 +34,7 @@ char	*ft_strdup(char *src)
 	while (src[index] != '\0')
 	{
 		dest[index] = src[index];
-		index++;
+		++index;
 	}
 	dest[index] = '\0';
 	return (dest);
