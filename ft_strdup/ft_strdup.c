@@ -31,7 +31,7 @@ char	*ft_strdup(char *src)
 	index = 0;
 	if (!(dest = (char *)malloc(sizeof(char) * ft_strlen(src) + 1)))
 		return ((void *)0);
-	while (src[index] != '\0')
+	while (src[index])
 	{
 		dest[index] = src[index];
 		++index;
