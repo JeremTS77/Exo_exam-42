@@ -6,7 +6,7 @@
 /*   By: cdivry <cdivry@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/07 22:09:09 by cdivry            #+#    #+#             */
-/*   Updated: 2015/12/08 00:17:56 by cdivry           ###   ########.fr       */
+/*   Updated: 2015/12/08 00:17:57 by cdivry           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,7 +80,6 @@ char		*ft_sub_instruction(char *str, int i)
 			ret[index - 1] = 0;
 			return (ret);
 		}
-
 		i++;
 	}
 	return (NULL);
