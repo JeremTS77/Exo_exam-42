@@ -1,0 +1,15 @@
+
+-> Compile avec les flags.
+
+gcc -Wall -Werror -Wextra brainfuck.c -o brainfuck
+
+-> Exemples du sujet:
+
+$>./brainfuck "++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>." | cat -e
+Hello World!$
+
+$>./brainfuck "+++++[>++++[>++++H>+++++i<<-]>>>++\n<<<<-]>>--------.>+++++.>." | cat -e
+Hi$
+
+$>./brainfuck | cat -e
+$
